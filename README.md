@@ -14,6 +14,7 @@ Raw Data: Segmented into to-process and processed folders for easy management. T
 
 **Data Transformation:**
 Implemented a transformation Lambda function (spotify-transformation): Automatically triggered on new uploads to the to-process folder. Transforms raw data into relational tables ready for analytics. Moves processed data to the appropriate S3 folder.
+![pipeline_architecture](pipeline_architecture.png)
 
 
 ## ☁️ Data Cataloging and Analytics:
